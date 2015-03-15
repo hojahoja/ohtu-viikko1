@@ -99,6 +99,11 @@ public class VarastoTest {
         
         varasto.otaVarastosta(-3);
         
-        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);       
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
+        
+        //breaks the test intentionally
+        assertTrue(false);
+        
+        
     }
 }
