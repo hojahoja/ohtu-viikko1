@@ -101,6 +101,9 @@ public class VarastoTest {
         
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
         
+        //breaks the test intentionally
+        assertTrue(false);
+        
         
     }
 }
