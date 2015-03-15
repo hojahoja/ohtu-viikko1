@@ -1,2 +1,3 @@
 Terse
 Edit: edit
+Edit: git add -p editti
